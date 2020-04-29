@@ -1,0 +1,21 @@
+/* оформление таблицы*/
+table {
+    border-collapse: collapse;
+}
+
+td, th, caption {
+    border: 3px solid #FBEEE6;
+}
+
+caption {
+    border-bottom: none;
+    color: #21618C;
+}
+
+th, td {
+    width: 50px;
+}
+
+thead tr {
+    height: 75px;
+}
