@@ -1,0 +1,335 @@
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url(../fonts/Raleway-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Italic";
+    src: url(../fonts/Raleway-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+/* Стили для блока Header*/
+.header {
+    width: 100%;
+    float: left;
+    height: 700px;
+    background: url("../images/background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.headerInside {
+    width: 1170px;
+    height: inherit;
+    background: url("../images/surfhouse_logo.png") no-repeat 69px 24px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.welcomeBlock {
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    position: absolute;
+    top: 336px;
+    padding: 82px 25px 0 25px;
+    box-sizing: border-box;
+}
+
+.welcome {
+    color: #333333;
+    font-family: "Raleway Bold", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.welcomeDescription {
+    color: #333333;
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 14px;
+}
+
+.socialIcons {
+    position: absolute;
+    right: 130px;
+    top: 50px;
+}
+
+.socialIcons i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+}
+
+.socialIcons i:hover {
+    color: #fbcc43;
+}
+
+.funrideBlock {
+    position: absolute;
+    right: 50px;
+    top: 205px;
+}
+
+.funrideHeader {
+     color: #fff51f;
+     font-family: "Raleway Extra Bold", sans-serif;
+     font-size: 48px;
+     line-height: 34px;
+     text-transform: uppercase;
+}
+
+.funrideText {
+    font-family: "Raleway Regular", sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    color: #fff51f;
+    margin-top: 7px;
+}
+
+.buttonBuy {
+    margin-top: 62px;
+    width: 124px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    background-color: #fff51f;
+}
+
+.buttonBuy:hover {
+    background-color: #fbcc43;
+}
+
+.buttonBuy a {
+    color: #000000;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Стили для блока Content Left*/
+.content {
+    width: 100%;
+    float: left;
+    min-height: 800px;
+    background: #98ff54;
+}
+
+.contentInside {
+    width: 1170px;
+    min-height: inherit;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+.contentInsideLeft {
+    width: 270px;
+    min-height: inherit;
+    background: #9da2ee;
+    float: left;
+}
+
+.contentInsideRight {
+    width: 870px;
+    float: right;
+    min-height: inherit;
+    background: #fa4444;
+}
+
+.mainMenu {
+    background-color: #26d2fc;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainMenu li {
+    width: 100%;
+    height: 43px;
+
+}
+
+.mainMenu li:first-child {
+    height: 66px;
+    background: #333;
+    color: #fff;
+}
+
+.mainMenu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    height: inherit;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 14px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    color: #000;
+    line-height: 43px;
+}
+
+.mainMenu li:first-child a {
+    line-height: 66px;
+    color: #fff;
+}
+
+.mainMenu li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.nowIsOpen {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.nowIsOpen span {
+    font-family: "Raleway Black Italic", sans-serif;
+    color: #333;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    top: 129px;
+    left: 142px;
+}
+
+.nowIsOpenInside {
+    width: 100%;
+    height: 100%;
+    background: url("../images/shopInside.jpg") no-repeat;
+    background-size: cover;
+}
+
+/* Стили для блока Content Right*/
+
+.contentHeader {
+    height: 78px;
+    width: 100%;
+    float: left;
+    line-height: 78px;
+    padding: 0 25px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #707070;
+    font-family: "Raleway Black Italic",sans-serif;
+    font-weight: 400;
+}
+
+.productsWrap {
+    width: 100%;
+    float: left;
+}
+
+.productsUnit {
+    width: 270px;
+    height: 320px;
+    float: left;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-size: border-box;
+    position: relative;
+    background-color: #eaeaea;
+}
+
+.productsUnit:nth-child(3n) {
+    margin-right: 0;
+}
+
+.productCorner {
+    background: url("../images/new.png") no-repeat;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    padding: 9px 0 0 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.productImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-bottom: 19px;
+}
+
+.productName {
+    width: 165px;
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.productPriceWrap {
+    float: right;
+    text-align: right;
+}
+
+.productActualPrice {
+    color: #333333;
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 18px;
+}
+
+.productOldPrice {
+    color: #e24602;
+    font-family: "Raleway Black Italic";
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
