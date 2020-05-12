@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "Raleway Black";
+  src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face {
+  font-family: "Raleway Black Italic";
+  src: url(../fonts/Raleway-Black-Italic.ttf);
+}
+@font-face {
+  font-family: "Raleway Bold";
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway Bold Italic";
+  src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+@font-face {
+  font-family: "Raleway Extra Bold";
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Raleway Regular";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Black";
+  src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: "Roboto Black Italic";
+  src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+  margin: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100 */
+  background: #f7fbfc;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f7fbfc 0%, #d9edf2 40%, #add9e4 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f7fbfc 0%, #d9edf2 40%, #add9e4 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f7fbfc 0%, #d9edf2 40%, #add9e4 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7fbfc', endColorstr='#add9e4', GradientType=0);
+  /* IE6-9 */
+}
+.header {
+  height: 700px;
+  background: url("../images/Background.jpg") center center;
+  background-size: cover;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .header {
+    height: 835px;
+  }
+}
+.header .headerInside {
+  position: relative;
+}
+.header .headerInside .imgLogo {
+  color: #000000;
+  filter: brightness(0) invert(1);
+  display: block;
+  width: 121px;
+  height: 111px;
+  position: absolute;
+  left: 69px;
+  top: 24px;
+  padding-top: 89px;
+}
+.header .headerInside .welcomeBlock {
+  width: 270px;
+  height: 300px;
+  background-color: #fff51f;
+  position: absolute;
+  top: 336px;
+  padding: 82px 25px 0 25px;
+  box-sizing: border-box;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .header .headerInside .welcomeBlock {
+    top: 111px;
+    left: 15px;
+  }
+}
+.header .headerInside .welcome {
+  color: #333333;
+  font-family: "Raleway Bold", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.header .headerInside .welcomeDescription {
+  color: #333333;
+  font-family: "Raleway Bold Italic", sans-serif;
+  font-size: 18px;
+  margin-top: 24px;
+  line-height: 14px;
+}
+.header .headerInside .socialIcons {
+  position: absolute;
+  right: 130px;
+  top: 50px;
+}
+.header .headerInside .socialIcons i {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.header .headerInside .socialIcons i:hover {
+  color: #fbcc43;
+}
+.header .headerInside .socialIcons a {
+  text-decoration: none;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .header .headerInside .socialIcons {
+    top: 50px;
+    left: 15px;
+    min-width: 80%;
+  }
+  .header .headerInside .socialIcons a i {
+    font-size: 30px;
+  }
+}
+.header .headerInside .funrideBlock {
+  position: absolute;
+  right: 50px;
+  top: 205px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .header .headerInside .funrideBlock {
+    left: 15px;
+    top: 425px;
+  }
+}
+.header .headerInside .funrideBlock .funrideHeader {
+  color: #fff51f;
+  font-family: "Raleway Extra Bold", sans-serif;
+  font-size: 48px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+.header .headerInside .funrideBlock .funrideText {
+  font-family: "Raleway Regular", sans-serif;
+  line-height: 24px;
+  font-size: 18px;
+  color: #fff51f;
+  margin-top: 7px;
+}
+.header .headerInside .funrideBlock .buttonBuy {
+  margin-top: 62px;
+  width: 124px;
+  height: 49px;
+  line-height: 49px;
+  text-align: center;
+  background-color: #fff51f;
+  text-transform: uppercase;
+}
+.header .headerInside .funrideBlock .buttonBuy a {
+  color: #000000;
+  font-family: "Raleway Black", sans-serif;
+  font-size: 14px;
+}
+.header .headerInside .funrideBlock .buttonBuy:hover {
+  background-color: #fbcc43;
+  cursor: pointer;
+}
+.content {
+  margin-top: -20px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .content {
+    margin-top: 0;
+  }
+}
+.content .contentInside {
+  width: 1170px;
+  margin: 0 auto;
+  background: #ccc;
+}
+.content .contentInside .contentInsideLeft {
+  width: 270px;
+  min-height: inherit;
+  float: left;
+}
+.content .contentInside .contentInsideLeft .mainMenu {
+  background-color: #26d2fc;
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.content .contentInside .contentInsideLeft .mainMenu li {
+  width: 100%;
+  height: 43px;
+}
+.content .contentInside .contentInsideLeft .mainMenu li:first-child {
+  height: 66px;
+  background: #333;
+  color: #fff;
+}
+.content .contentInside .contentInsideLeft .mainMenu li:first-child li:first-child a {
+  line-height: 66px;
+  color: #ffffff;
+}
+.content .contentInside .contentInsideLeft .mainMenu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  height: inherit;
+  font-family: "Raleway Black", sans-serif;
+  font-size: 14px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  color: #000000;
+  line-height: 43px;
+}
+.content .contentInside .contentInsideLeft .mainMenu li a:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+.content .contentInside .contentInsideLeft .nowIsOpen {
+  margin-top: 30px;
+  height: 300px;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .content .contentInside .contentInsideLeft .nowIsOpen {
+    margin-top: 15px;
+  }
+}
+.content .contentInside .contentInsideLeft .nowIsOpen .nowIsOpenInside {
+  width: 100%;
+  height: 100%;
+  background: url("../images/shopInside.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.content .contentInside .contentInsideLeft .nowIsOpen .nowIsOpenInside span {
+  font-family: "Raleway Black Italic", sans-serif;
+  color: #333;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 129px;
+  left: 142px;
+}
+.content .contentInside .contentInsideRight {
+  width: 870px;
+  float: right;
+  min-height: inherit;
+}
+.content .contentInside .contentInsideRight .contentHeader {
+  box-sizing: border-box;
+  height: 78px;
+  line-height: 78px;
+  padding: 0 25px;
+  background: #f8f8f8;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #707070;
+  font-family: "Raleway Black Italic", sans-serif;
+  margin-bottom: 30px;
+}
