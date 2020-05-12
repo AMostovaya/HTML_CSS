@@ -1,0 +1,619 @@
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url(../fonts/Raleway-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Italic";
+    src: url(../fonts/Raleway-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100 */
+    background: #f7fbfc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
+}
+
+/* Стили для блока Header*/
+.header {
+    width: 100%;
+    float: left;
+    height: 700px;
+    background: url("../images/Background.jpg") no-repeat;
+    background-size: cover;
+}
+
+.headerInside {
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imgLogo {
+    color: #fff;
+    filter: brightness(0) invert(1);
+}
+
+.welcomeBlock {
+    width: 270px;
+    height: 300px;
+    background-color: #fff51f;
+    position: absolute;
+    top: 336px;
+    padding: 82px 25px 0 25px;
+    box-sizing: border-box;
+}
+
+.welcome {
+    color: #333333;
+    font-family: "Raleway Bold", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.welcomeDescription {
+    color: #333333;
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-size: 18px;
+    margin-top: 24px;
+    line-height: 14px;
+}
+
+.socialIcons {
+    position: absolute;
+    right: 130px;
+    top: 50px;
+}
+
+.socialIcons i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.socialIcons a {
+    text-decoration: none;
+}
+
+.socialIcons i:hover {
+    color: #fbcc43;
+}
+
+.funrideBlock {
+    position: absolute;
+    right: 50px;
+    top: 205px;
+}
+
+.funrideHeader {
+     color: #fff51f;
+     font-family: "Raleway Extra Bold", sans-serif;
+     font-size: 48px;
+     line-height: 34px;
+     text-transform: uppercase;
+}
+
+.funrideText {
+    font-family: "Raleway Regular", sans-serif;
+    line-height: 24px;
+    font-size: 18px;
+    color: #fff51f;
+    margin-top: 7px;
+}
+
+.buttonBuy {
+    margin-top: 62px;
+    width: 124px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    background-color: #fff51f;
+}
+
+.buttonBuy:hover {
+    background-color: #fbcc43;
+}
+
+.buttonBuy a {
+    color: #000000;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Стили для блока Content Left*/
+.content {
+   width: 100%;
+   float: left;
+   margin-top: -20px;
+}
+
+.contentInside {
+    width: 1170px;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+.contentInsideLeft {
+    width: 270px;
+    min-height: inherit;
+    float: left;
+}
+
+.contentInsideRight {
+    width: 870px;
+    float: right;
+    min-height: inherit;
+}
+
+.mainMenu {
+    background-color: #26d2fc;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainMenu li {
+    width: 100%;
+    height: 43px;
+}
+
+.mainMenu li:first-child {
+    height: 66px;
+    background: #333;
+    color: #fff;
+}
+
+.mainMenu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    height: inherit;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 14px;
+    padding: 0 40px;
+    box-sizing: border-box;
+    color: #000;
+    line-height: 43px;
+}
+
+.mainMenu li:first-child a {
+    line-height: 66px;
+    color: #fff;
+}
+
+.mainMenu li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.nowIsOpen {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.nowIsOpen span {
+    font-family: "Raleway Black Italic", sans-serif;
+    color: #333;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    top: 129px;
+    left: 142px;
+}
+
+.nowIsOpenInside {
+    width: 100%;
+    height: 100%;
+    background: url("../images/shopInside.jpg") no-repeat;
+    background-size: cover;
+}
+
+/* Стили для блока Content Right*/
+
+.contentHeader {
+    height: 78px;
+    /*width: 100%;*/
+    /*float: left;*/
+    line-height: 78px;
+    padding: 0 25px;
+    /*box-sizing: border-box;*/
+    background: #f8f8f8;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #707070;
+    font-family: "Raleway Black Italic",sans-serif;
+    margin-bottom: 30px;
+}
+
+.productsWrap {
+    /*width: 100%;
+    float: left;*/
+    margin-bottom: 30px;
+}
+
+.productsWrap:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.productsUnit {
+    width: 270px;
+    height: 320px;
+    float: left;
+    /*margin-top: 30px;
+    margin-bottom: 40px;*/
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+}
+
+.productsUnit:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.productsUnit:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.productCornerNew {
+    background: url("../images/new.png") no-repeat;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    padding: 9px 0 0 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.productCornerHot {
+    background: url("../images/hot.png") no-repeat;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 9px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 46px;
+    height: 46px;
+    padding: 9px 0 0 22px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.productImg {
+    width: 100%;
+    /*height: 100%;*/
+    object-fit: cover;
+    height: 235px;
+    margin-bottom: 19px;
+}
+
+.productName {
+    width: 155px;
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 14px;
+    color: #333;
+    float: left;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.productPriceWrap {
+    float: right;
+    text-align: right;
+    color: #333;
+    font-family: "Raleway Black Italic", sans-serif;
+}
+
+.productActualPrice {
+    font-size: 18px;
+}
+
+.productOldPrice {
+    color: #e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.brands {
+    width: 100%;
+    height: 160px;
+    float: left;
+    padding: 14px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.instagramFeedWrap {
+    width: 100%;
+    height: 350px;
+    background: #eaeaea;
+    float: left;
+}
+
+.instagramLabel {
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+    font-family: "Raleway Bold Italic", sans-serif;
+}
+
+.instagramLabel i {
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+}
+
+.instagramLabel span {
+    font-size: 22px;
+}
+
+.instagramImages {
+    margin-top: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.socialButtons {
+    width: 100%;
+    float: left;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialButtons a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(100%/3);
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.socialButtons a:first-child {
+    background: #3b5997;
+}
+
+.socialButtons a:nth-child(2) {
+    background: #3fccfd;
+}
+
+.socialButtons a:nth-child(3) {
+    background: #cb2027;
+}
+
+/* Оформление подвала */
+.footer {
+    width: 100%;
+    float: left;
+    height: 351px;
+    background: #373737;
+}
+
+.footerInside {
+    width: 1170px;
+    margin: 0 auto;
+    height: 303px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+
+.columnHeader {
+    color: #ffffff;
+    font-family: "Raleway Extra Bold", sans-serif;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.columnLinks a{
+    color: #ffffff;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.columnNewsletter {
+    color: #fff;
+    float: left;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.inputEmail {
+    width: 180px;
+    height: 30px;
+    float: left;
+    background: #fff51f;
+    opacity: 0.45;
+    color: #333333;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding: 0 8px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.buttonSubmit {
+    width: 71px;
+    height: 30px;
+    background: #000000;
+    color: #ffffff;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+}
+
+.buttonSubmit:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+.newsletter {
+    width: 252px;
+}
+
+.newsletterText {
+    width: 100%;
+}
+
+.paymentsWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.columnAboutUs {
+
+}
+
+.about {
+    width: 232px;
+}
+
+.aboutText {
+    color: #fff;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: justify;
+}
+
+.aboutPhone {
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 14px;
+}
+
+.aboutPhone span {
+    margin-right: 12px;
+}
+
+.aboutEmail {
+    margin-top: 14px;
+    color: #faef03;
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 14px;
+}
+
+.aboutEmail:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.aboutEmail span {
+    color: #fff;
+    margin-right: 12px;
+}
+
+.footerCopyright {
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+    background: #333;
+}
+
+.copyrightInside {
+    width: 1170px;
+    margin: 0 auto;
+    height: inherit;
+    color: #fff;
+}
+
+.copyrightInsideText {
+    float: left;
+    color: #dad9d9;
+    font-family: "Raleway Bold", sans-serif;
+    font-size: 12px;
+}
+
+.footerSocialIcons {
+    float: right;
+    height: inherit;
+    color: #fff;
+    width: 178px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

@@ -1,0 +1,279 @@
+@import "_variables";
+
+body {
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100 */
+    background: #f7fbfc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+}
+
+.header {
+    height: 700px;
+    background: url("../images/Background.jpg") center center;
+    background-size: cover;
+
+  .customRespond(0, 767px, {
+    height: 835px;
+  });
+
+ .headerInside {
+       position: relative;
+
+    .imgLogo {
+        color: @minorColor;
+        filter: brightness(0) invert(1);
+        display: block;
+        width: 121px;
+        height: 111px;
+        position: absolute;
+        left: 69px;
+        top: 24px;
+        padding-top: 89px;
+     }
+
+    .welcomeBlock {
+        width: 270px;
+        height: 300px;
+        background-color: #fff51f;
+        position: absolute;
+        top: 336px;
+        padding: 82px 25px 0 25px;
+        box-sizing: border-box;
+
+        .customRespond(0, 767px, {
+                top: 111px;
+                left: 15px;
+        });
+    }
+
+    .welcome {
+        color: #333333;
+        font-family: "Raleway Bold", sans-serif;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+    .welcomeDescription {
+        color: #333333;
+        font-family: "Raleway Bold Italic", sans-serif;
+        font-size: 18px;
+        margin-top: 24px;
+        line-height: 14px;
+    }
+
+    .socialIcons {
+        position: absolute;
+        right: 130px;
+        top: 50px;
+
+        i {
+              color: @lightColor;
+              margin-right: 10px;
+
+              &:hover {
+                 color: #fbcc43;
+              }
+        }
+
+        a {
+             text-decoration: none;
+        }
+
+        .customRespond(0, 767px, {
+                top: 50px;
+                left: 15px;
+                min-width: 80%;
+
+                a {
+                    i {
+                       font-size: 30px;
+                      }
+                  }
+        });
+    }
+
+    .funrideBlock {
+        position: absolute;
+        right: 50px;
+        top: 205px;
+
+        .customRespond(0, 767px, {
+                left: 15px;
+                top: 425px;
+        });
+
+        .funrideHeader {
+             color: #fff51f;
+             font-family: "Raleway Extra Bold", sans-serif;
+             font-size: 48px;
+             line-height: 34px;
+             text-transform: uppercase;
+        }
+
+        .funrideText {
+            font-family: "Raleway Regular", sans-serif;
+            line-height: 24px;
+            font-size: 18px;
+            color: #fff51f;
+            margin-top: 7px;
+        }
+
+        .buttonBuy {
+            margin-top: 62px;
+            width: 124px;
+            height: 49px;
+            line-height: 49px;
+            text-align: center;
+            background-color: #fff51f;
+            text-transform: uppercase;
+
+            a {
+                color: #000000;
+                font-family: "Raleway Black", sans-serif;
+                font-size: 14px;
+            }
+
+            &:hover {
+                background-color: #fbcc43;
+                cursor: pointer;
+            }
+            }
+
+
+        }
+
+
+    }
+
+}
+
+.content {
+
+   margin-top: -20px;
+
+   .customRespond(0, 767px, {
+       margin-top: 0;
+    });
+
+    .contentInside {
+        width: 1170px;
+        margin: 0 auto;
+        background: #ccc;
+
+        .contentInsideLeft {
+            width: 270px;
+            min-height: inherit;
+            float: left;
+
+            .mainMenu {
+                background-color: #26d2fc;
+                width: 100%;
+                float: left;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+
+                li {
+                    width: 100%;
+                    height: 43px;
+
+                    &:first-child {
+                        height: 66px;
+                        background: #333;
+                        color: #fff;
+
+                        li:first-child a {
+                           line-height: 66px;
+                           color: @lightColor;
+                        }
+                    }
+
+                    a {
+                         text-transform: uppercase;
+                         text-decoration: none;
+                         display: block;
+                         height: inherit;
+                         font-family: "Raleway Black", sans-serif;
+                         font-size: 14px;
+                         padding: 0 40px;
+                         box-sizing: border-box;
+                         color: @minorColor;
+                         line-height: 43px;
+
+                         &:hover {
+                             background-color: #333;
+                             color: @lightColor;
+                         }
+                    }
+                }
+            }
+
+            .nowIsOpen {
+                margin-top: 30px;
+                height: 300px;
+                background: @lightColor;
+                box-sizing: border-box;
+                padding: 10px;
+
+                .customRespond(0, 767px, {
+                      margin-top: 15px;
+                });
+
+                .nowIsOpenInside {
+                    width: 100%;
+                    height: 100%;
+                    background: url("../images/shopInside.jpg") no-repeat center;
+                    background-size: cover;
+                    position: relative;
+
+                    span {
+                        font-family: "Raleway Black Italic", sans-serif;
+                        color: #333;
+                        font-size: 36px;
+                        text-transform: uppercase;
+                        position: absolute;
+                        top: 129px;
+                        left: 142px;
+                    }
+                }
+            }
+        }
+
+        .contentInsideRight {
+            width: 870px;
+            float: right;
+            min-height: inherit;
+
+            .contentHeader {
+                box-sizing: border-box;
+                height: 78px;
+                line-height: 78px;
+                padding: 0 25px;
+                background: #f8f8f8;
+                text-transform: uppercase;
+                font-size: 22px;
+                color: #707070;
+                font-family: "Raleway Black Italic",sans-serif;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
